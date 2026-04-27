@@ -279,3 +279,4 @@
 /Users/spencerlogsdon/Projects/LeaveManagementSystem.Web/obj/Debug/net10.0/LeaveManagementSystem.Web.pdb
 /Users/spencerlogsdon/Projects/LeaveManagementSystem.Web/obj/Debug/net10.0/LeaveManagementSystem.Web.genruntimeconfig.cache
 /Users/spencerlogsdon/Projects/LeaveManagementSystem.Web/obj/Debug/net10.0/ref/LeaveManagementSystem.Web.dll
+/Users/spencerlogsdon/Projects/LeaveManagementSystem.Web/obj/Debug/net10.0/LeaveManagementSystem.Web.sourcelink.json
