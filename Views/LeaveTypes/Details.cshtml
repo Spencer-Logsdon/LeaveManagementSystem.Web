@@ -1,0 +1,27 @@
+@model LeaveManagementSystem.Web.Data.LeaveType
+
+@{
+    ViewData["Title"] = "Leave Type Details";
+}
+
+<h1>Leave Type Details</h1>
+
+<div>
+    <h4>LeaveType</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">Id</dt>
+        <dd class = "col-sm-10">@Model.Id</dd>
+
+        <dt class = "col-sm-2">Name</dt>
+        <dd class = "col-sm-10">@Model.Name</dd>
+
+        <dt class = "col-sm-2">Number Of Days</dt>
+        <dd class = "col-sm-10">@Model.NumberOfDays</dd>
+    </dl>
+</div>
+
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</p>
